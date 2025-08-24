@@ -1,16 +1,21 @@
-# lend_borrow_tracker
+# Lend Borrow Ledger
 
-A description of your app
+## Overview
 
-## Getting Started
+An offline-first Flutter application designed to help users easily track interpersonal debts and loans. It provides a simple ledger to manage transactions between contacts, with all data stored locally on the device for privacy and offline accessibility.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Offline-First**: The app is fully functional without an internet connection.
+- **Track Transactions**: Easily add new entries for money lent or borrowed.
+- **Contact Management**: Add and manage a list of contacts you transact with.
+- **Real-time Balances**: Automatically calculates and displays the net balance for each contact.
+- **Transaction History**: View a complete history of all transactions for a specific person.
+- **Local Storage**: All data is securely stored on your device using a local SQLite database.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework**: Flutter, Dart
+- **State Management**: Riverpod
+- **Database**: Drift (ORM over SQLite)
+- **Reactive Programming**: RxDart
